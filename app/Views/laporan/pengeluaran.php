@@ -146,7 +146,7 @@
                     response.forEach(function(data) {
                         // Tambahkan nilai dari setiap elemen ke total
                         totalBerat += parseFloat(data.jumlah) || 0; // Pastikan nilainya angka
-                        totalUangMasuk += parseFloat(data.total_pendapatan) || 0;
+                        totalUangMasuk += parseFloat(data.total_pengeluaran) || 0;
                     });
 
                     // Format total uang
